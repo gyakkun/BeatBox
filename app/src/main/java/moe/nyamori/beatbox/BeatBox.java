@@ -15,7 +15,6 @@ public class BeatBox {
 
     private AssetManager mAssets;
 
-
     private List<Sound> mSounds = new ArrayList<>();
 
 

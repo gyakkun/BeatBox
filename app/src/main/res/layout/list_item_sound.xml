@@ -14,6 +14,7 @@
         android:layout_height="120dp"
         android:text="@{viewModel.title}"
         tools:text="Sound Name" />
+    <!--android:onClick="@{(view)->viewModel.onButtonClick()}"-->
     <!--same as android:text="@{viewModel.getTitle()}"-->
 
 </layout>
