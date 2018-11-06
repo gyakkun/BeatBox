@@ -4,7 +4,17 @@ public class Sound {
 
     private String mAssetPath;
     private String mName;
+    private Integer mSoundId;
+    // mSoundId as Integer rather than int, in case when a certain
+    // Sound instance has no mSoundId value then it can be set null
 
+    public Integer getSoundId() {
+        return mSoundId;
+    }
+
+    public void setSoundId(Integer soundId) {
+        mSoundId = soundId;
+    }
 
     public String getAssetPath() {
         return mAssetPath;
